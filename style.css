@@ -1,6 +1,10 @@
 body {
+	
 	background: #FFFFFF;
-	background-image: url(https://static.pexels.com/photos/4289/sweet-almond-biscuits-cookies.jpg);
+	background-image: url(https://static.pexels.com/photos/4289/sweet-almond-biscuits-cookies.jpg)
+	background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;;
 	
 	color: #FFFFFF;
 	}
