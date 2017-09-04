@@ -1,57 +1,116 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>BASSCUIT</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="loading">
+<!doctype html>
+<html lang="de">
 
-			<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Basscuit</h1>
-						<p>DJ Newcomer &nbsp;&bull;&nbsp; Bedroom Producer &nbsp;&bull;&nbsp; basscuit.germany@gmail.com.</p>
-						<nav>
-							<ul>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="icons.css">
+  <!-- Favicon einfuegen -->
+  <title>BASSCUIT</title>
+</head>
 
-								<li><a href="http://soundcloud.com/basscuit" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
-								<li><a href="http://instagram.com/basscuit" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="http://twitter.com/basscuit" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="http://facebook.com/basscuit" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-              	<!--
-								<li><a href="mailto:basscuit.germany@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-								-->
+<body>
 
-							</ul>
-						</nav>
-					</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Basscuit. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
 
-			</div>
-		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="jumbotron text-center" id="jumbotron">
+  <div class="container-fluid">
+    <div class="col-md-6 text-right" id="heading">
+      <h1>BASSCUIT </h1><br>
+      <p>May the crispy bass be with you</p>
+    </div>
+    <div class="col-md-6 text-left" id="heading">
+      <img src="img/basscuit.jpg" class="img-circle" alt="Basscuit" width="300" height="300">
+    </div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="col-md-4 slideanim">
+    <img src="img/Space Cowboys.jpg" alt="Basscuit - Space Cowboys" width="100%">
+  </div>
+  <div class="col-md-4 slideanim">
+    <img src="img/Saphira.jpg" alt="Basscuit - Saphira" width="100%">
+  </div>
+  <div class="col-md-4 slideanim">
+    <img src="img/Daisy.jpg" alt="Basscuit - Daisy" width="100%">
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="col-md-4 slideanim">
+    <img src="img/Milkyway.jpg" alt="Basscuit - Milkyway" width="100%">
+  </div>
+  <div class="col-md-4 slideanim">
+    <img src="img/Tequila Sunrise.jpg" alt="Basscuit - Tequila Sunrise" width="100%">
+  </div>
+  <div class="col-md-4 slideanim">
+    <img src="img/More And More.jpg" alt="Basscuit - More And More" width="100%">
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="col-md-12 slideanim text-center" id="heading-2">
+    <h1>Infos<h1>
+  </div>
+
+  <div class="col-md-12 slideanim text-center" id="heading-2">
+
+
+      <p>
+        <a href="http://www.facebook.com/basscuit" target="_blank"><span class="icon-facebook"></span></a>
+        <a href="http://www.instagram.com/basscuit" target="_blank"><span class="icon-instagram"></span></a>
+        <a href="http://www.twitter.com/basscuit" target="_blank"><span class="icon-twitter"></span></a>
+        <a href="http://www.soundcloud.com/basscuit" target="_blank"><span class="icon-soundcloud"></span></a>
+      </p>
+
+  </div>
+
+
+</div>
+
+
+<footer class="container-fluid text-center">
+  <p>&copy; 2017 | BASSCUIT<br></p>
+
+</footer>
+
+</body>
+<script>
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 750) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
 </html>
