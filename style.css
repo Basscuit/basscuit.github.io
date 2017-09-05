@@ -77,10 +77,6 @@ body {
       text-shadow: 2px 2px 4px black;
   }
 
-  a:hover img {
-    box-shadow: 5px 10px 10px black;
-
-  }
 
   a:active {
       color: black;
