@@ -17,16 +17,24 @@ body {
   }
 
   .jumbotron h1 {
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 0px 10px;
     display: inline-block;
 
   }
   .jumbotron p {
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 0px 10px;
     display: inline-block;
+  }
 
+  #whiteblock {
+    color: black;
+    background-color: white;
+    padding: 0px 10px;
+    display: inline-block;
   }
 
 
@@ -114,6 +122,5 @@ body {
         padding-top: 0.05em;
         background-size: 992px 100%;
         background-position: center;
-
     }
 }
