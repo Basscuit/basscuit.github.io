@@ -54,6 +54,11 @@ body {
     padding: 0 0px;
     margin: 0 100 0 100px;
   }
+  .container p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: normal;
+  }
 
   .col-md-4 {
     padding: 10 10px;
