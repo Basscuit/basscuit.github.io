@@ -47,3 +47,13 @@
 .icon-youtube:before {
   content: "\e906";
 }
+
+.icon-apple:before {
+  content: "\eabe";
+  font-size: 0.5em;
+}
+
+.icon-amazon:before {
+  content: "\ea87";
+  font-size: 0.5em;
+}
