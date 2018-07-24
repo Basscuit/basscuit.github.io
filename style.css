@@ -5,14 +5,16 @@ body {
   color: white;
   background: #131038;
   background: linear-gradient(to bottom, #1a1577,#131038);
+  background: linear-gradient(to bottom right, #2ca096, #ca8367);
 }
-background: linear-gradient(to bottom right, #35cfff, #1eff83, #e9ff2b, #ff30db);
+
 img {
-  box-shadow: 3px 3px 5px black;
+  /*box-shadow: 3px 3px 5px black;*/
 }
 .jumbotron {
     background: linear-gradient(to bottom, black, #061123);
     background-image: url("img/Banner2.jpg");
+    
     background-size: 100%;
     background-position: top;
     padding: 100px 25px;
