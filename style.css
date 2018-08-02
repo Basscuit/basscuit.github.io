@@ -5,7 +5,7 @@ body {
   color: white;
   background: #131038;
   background: linear-gradient(to bottom, #1a1577,#131038);
-  background: linear-gradient(to bottom right, #2ca096, #ca8367);
+  background: linear-gradient(to bottom right,#999089, #2ca096);
 }
 
 img {
@@ -14,7 +14,7 @@ img {
 .jumbotron {
     background: linear-gradient(to bottom, black, #061123);
     background-image: url("img/Banner2.jpg");
-    
+
     background-size: 100%;
     background-position: top;
     padding: 100px 25px;
